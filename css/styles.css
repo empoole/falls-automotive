@@ -1,0 +1,161 @@
+/********************
+Colors:
+
+White: #E8FFF0;
+Black: #010301;
+Green: #31A671;
+Blue: #2CA5B3;
+*********************/
+
+/*General Styles*/
+html,
+body {
+	background-color: #F3FFF0;
+	color: #010301;
+	font-family: 'Open Sans', Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Lora', Times, serif;
+	font-weight: 700;
+}
+
+a {
+	color: #2CA5B3;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #2CA5B3;
+}
+
+a:hover {
+	color: #0D2F33;
+}
+
+.heading {
+	font-size: 2rem;
+}
+
+.smalltext {
+	font-size: .75rem;
+}
+
+/*Center Align*/
+.logo,
+.heading,
+.service-heading,
+.footer {
+	text-align: center;
+}
+
+.wrapper {
+	width: 60%;
+	margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+	.wrapper {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.wrapper {
+		width: 70%;
+	}
+}
+
+/*Nav*/
+.navbar {
+	height: 60px;
+	position: fixed;
+	width: 100%;
+	background-color: #F3FFF0;
+	border-bottom: 4px solid #31A671;
+}
+
+.nav-logo {
+	float: left;
+	margin-left: 4rem;
+}
+
+.nav-links {
+	float: right;
+	margin-right: 4rem;
+	font-family: 'Lora', Times, serif;
+}
+
+.nav-links li {
+	display: inline-block;
+	padding: 0 5px;
+}
+
+/*Header*/
+.header {
+	background-image: url('../img/temp.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 664px;
+}
+
+.contact-address {
+	float: left;
+}
+
+.contact-tel {
+	float: right;
+}
+
+.contact-address p,
+.contact-tel p {
+	margin: 0;
+}
+
+.footer {
+	background-color: #010301;
+	color: #31A671;
+
+	padding: 2rem;
+}
+
+/*Services*/
+.service-section {
+	padding-top: 2rem;
+	padding-bottom: 4rem;
+}
+
+.service-heading {
+	margin: 0;
+	padding-bottom: 2rem;
+}
+
+.service-list {
+	list-style: none;
+	width: 70%;
+	margin: auto;
+	text-align: center;
+}
+
+.service-list li {
+	display: inline-block;
+	padding: 0 1.5rem;
+}
+
+.service-list li img {
+	display: block;
+}
+
+#upholstery-services {
+	background-image: url('../img/gray-leather.jpg');
+	color: #E8FFF0;
+}
+
+
+#quick-fixes {
+	background-image: url('../img/white-leather.jpg');
+}
