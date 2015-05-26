@@ -8,7 +8,7 @@
 	
 	<title>Falls Automotive Specialties</title>
 
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans|Lora:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Bree+Serif' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 
@@ -16,7 +16,7 @@
 </head>
 <body>
 	<nav class="navbar">
-		<a href="/" class="nav-logo"><img src="img/temp-logo.png"></a>
+		<a href="/" class="nav-logo">FALLS<!--<img src="img/temp-logo.png">--></a>
 		<ul class="nav-links">
 			<li><a href="#upholstery-services" id="services-link">Services</a></li>
 			<li><a href="#about" id="about-link">About Us</a></li>
@@ -24,40 +24,60 @@
 		</ul>
 	</nav>
 	<header class="header">
-		<img src="" class="logo">
+		<!--<img src="img/temp-banner.png" class="logo">-->
+		<div class="logo">
+			<h1 class="masthead-title">FALLS</h1>
+			<h2 class="masthead-subtitle">AUTOMOTIVE</h2>
+			<h2 class="masthead-subtitle">SPECIALTIES</h2>
+		</div>
+		<div class="star"></div>
+		<div class="star-shadow"></div>
+		<div class="star-caption">Gift Cards Availible</div>
 	</header>
-	<section id="upholstery-services" class="service-section">
+	<section id="upholstery-services" class="service-section bg-gray">
 		<h3 class="service-heading">Upholstery Services</h3>
-		<ul class="service-list">
-			<li>
-				<img src="img/ph-seat.png">
-				Seat Repairs
+		<ul class="service-list table li-pointers">
+			<li id="uph-link_seat-repairs" class="hover-icon">
+				<p>Seat Repairs</p>
 			</li>
-			<li>Tops</li>
-			<li>Headliners</li>
-			<li>Carpet</li>
+			<li id="uph-link_tops" class="hover-icon">
+				<p>Tops</p>
+			</li>
+			<li id="uph-link_headliners" class="hover-icon">
+				<p>Headliners</p>
+			</li>
+			<li id="uph-link_carpet" class="hover-icon">
+				<p>Carpet</p>
+			</li>
+		</ul>
+		<ul class="info-slider" id="uphostery-slider">
+			<li id="uph-slider_seat-repairs" class="info-slider-shown">
+				<h4>Seat Repairs</h4>
+				<p>
+					Wes Anderson umami biodiesel YOLO, Terry Richardson helvetica tousled street art master cleanse selfies Godard cornhole 8-bit pork belly scenester. Blog blue bottle Neutra, polaroid pug cliche dreamcatcher. Ethnic wolf church-key, Wes Anderson tattooed meh tumblr direct trade literally jean shorts swag shabby chic chillwave DIY pug.
+				</p>
+			</li>
+			<li id="uph-slider_tops">
+				<h4>Tops</h4>
+				<p>
+					Tousled lomo letterpress, flexitarian bitters Schlitz messenger bag Carles. Brooklyn shabby chic letterpress, gluten-free blog Etsy ennui umami cliche hashtag leggings hoodie bitters. Pickled scenester Austin craft beer, 3 wolf moon squid sriracha letterpress occupy. Flexitarian Odd Future semiotics, church-key lomo 8-bit ethnic artisan seitan brunch.
+				</p>
+			</li>
+			<li id="uph-slider_headliners">
+				<h4>Headliners</h4>
+				<p>
+					Wes Anderson umami biodiesel YOLO, Terry Richardson helvetica tousled street art master cleanse selfies Godard cornhole 8-bit pork belly scenester. Blog blue bottle Neutra, polaroid pug cliche dreamcatcher. Ethnic wolf church-key, Wes Anderson tattooed meh tumblr direct trade literally jean shorts swag shabby chic chillwave DIY pug.
+				</p>
+			</li>
+			<li id="uph-slider_carpet">
+				<h4>Carpet</h4>
+				<p>
+					Tousled lomo letterpress, flexitarian bitters Schlitz messenger bag Carles. Brooklyn shabby chic letterpress, gluten-free blog Etsy ennui umami cliche hashtag leggings hoodie bitters. Pickled scenester Austin craft beer, 3 wolf moon squid sriracha letterpress occupy. Flexitarian Odd Future semiotics, church-key lomo 8-bit ethnic artisan seitan brunch.
+				</p>
+			</li>
 		</ul>
 	</section>
-		
 	<section>
-		<h3 class="service-heading">Expert Detailing</h3>
-		<ul class="service-list">
-			<li>Washing</li>
-			<li>Compounding</li>
-			<li>Polishing</li>
-			<li>Waxing</li>
-			<li>Shampooing</li>
-			<li>Buffing</li>
-		</ul>
-
-		<h3 class="service-heading"></h3>
-		<ul class="service-list">
-			<li>Sun Roofs</li>
-			<li>Glass</li>
-			<li>Wheels and Tires</li>
-			<li>Headlight Restoration</li>
-		</ul>
-
 		<h3 class="service-heading">Electronics</h3>
 		<ul class="service-list">
 			<li>Remote Starter</li>
@@ -66,37 +86,76 @@
 			<li>Stereos</li>
 			<li>Mobile Video Systems</li>
 		</ul>
-
-		<h3 class="service-heading"></h3>
-		<ul class="service-list">
-			<li>Trucks</li>
-			<li>Jeeps</li>
-			<li>Boats</li>
-			<li>House Items</li>
+	</section>
+	<section class="service-section">
+		<h3 class="service-heading">Wheels and Tires</h3>
+		<ul class="img-list">
+			<li><img src="img/logos/AR-Custom.png"></li>
+			<li><img src="img/logos/AR.png"></li>
+			<li><img src="img/logos/kmc.png"></li>
+			<li><img src="img/logos/xd.png"></li>
+			<li><img src="img/logos/lorenzo.png"></li>
+			<li><img src="img/logos/motegi.png"></li>
+			<li><img src="img/logos/atx.png"></li>
+			<li><img src="img/logos/motometal.png"></li>
+			<li><img src="img/logos/helo.png"></li>
+			<li><img src="img/logos/oecreations.png"></li>
 		</ul>
 	</section>
-	<section id="quick-fixes" class="service-section">	
-		<h3 class="service-heading">Quick Fixes</h3>
-		<ul class="service-list">
-			<li>Dashboard Cracks</li>
-			<li>Door Panels</li>
-			<li>Consoles</li>
-			<li>Seats</li>
-			<li>Stearing Wheel Recoloration</li>
-		</ul>
+	<section class="image-gallery" id="gallery">
+		
 	</section>
-	<section class="wrapper" id="about">
-		<h2 class="heading">About Us</h2>
-			<p>
-				What do you want me to say, that I'm sorry? That I apologize? Well, people in Hell want ice water, pal. I'm neglecting my other guests. Enjoy yourself, you'll find the young ladies stimulating company. You know why the Yankees always win, Frank? it's 'cause the other teams can't stop staring at those damn pinstripes. You're talking to me all wrong... It's the wrong tone. You do it again and I'll stab you in the face with a soldering iron. Hey, tell me, does your mother sew? BOOM. Get her to sew that! What do you want me to say, that I'm sorry? That I apologize?
-			</p>
+	<section class="bg-gray" id="about">
+		<div class="wrapper">
+			<h2 class="heading">About Us</h2>
+				<p>
+					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+				</p>
 
-			<p>
-				Two little mice fell in a bucket of cream. The first mouse quickly gave up and drowned. The second mouse, wouldn't quit. He struggled so hard that eventually he churned that cream into butter and crawled out. Gentlemen, as of this moment, I am that second mouse. Two little mice fell in a bucket of cream. The first mouse quickly gave up and drowned. The second mouse, wouldn't quit.
-			</p>
-			<p>
-				He struggled so hard that eventually he churned that cream into butter and crawled out. Gentlemen, as of this moment, I am that second mouse. You got the wrong guy, ace! You got the wrong guy, ace! You're talking to me all wrong... It's the wrong tone. You do it again and I'll stab you in the face with a soldering iron. Hey, tell me, does your mother sew? BOOM. Get her to sew that!
-			</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+	</section>
+	<section class="bg-green">
+		<div class="wrapper table">
+			<div class="small-block">
+				<h3>Quick Fixes</h3>
+				<ul>
+					<li>Dashboard Cracks</li>
+					<li>Door Panels</li>
+					<li>Consoles</li>
+					<li>Seats</li>
+					<li>Stearing Wheel Recoloring</li>
+				</ul>
+			</div>
+			<div class="small-block">
+				<h3>Expert Detailing</h3>
+				<ul>
+					<li>Washing</li>
+					<li>Compounding</li>
+					<li>Polishing</li>
+					<li>Waxing</li>
+					<li>Shampooing</li>
+					<li>Buffing</li>
+				</ul>
+			</div>
+			<div class="small-block">
+				<h3></h3>
+				<ul>
+					<li>Trucks</li>
+					<li>Jeeps</li>
+					<li>Boats</li>
+					<li>House Items</li>
+					<li>Sun Roofs</li>
+					<li>Glass</li>
+					<li>Headlight Restoration</li>
+				</ul>
+			</div>
+		</div>
 	</section>
 	<footer class="footer smalltext">
 		<div id="contact" class="wrapper">
@@ -111,8 +170,10 @@
 				<p>Fax: <a href="tel:+9738901596">973-890-1596</a></p>
 			</div>
 		</div>
+		<a href="https://www.facebook.com/pages/Falls-Automotive-Specialties/142276605818275">Facebook</a>
 		<p>&copy; 2015 Falls Automotive Specialties</p>
 	</footer>
 	<script type="text/javascript" src="js/scroll.js"></script>
+	<script type="text/javascript" src="js/info-slider.js"></script>
 </body>
 </html>
