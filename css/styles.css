@@ -87,13 +87,25 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
 	.wrapper {
-		width: 80%;
+		width: 85%;
 	}
 }
 
 @media only screen and (max-width: 1000px) {
 	.wrapper {
-		width: 70%;
+		width: 77%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.hide-small {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.hide-mid {
+		display: none;
 	}
 }
 
@@ -116,6 +128,10 @@ a:hover {
 	position: absolute;
 	top: 50%;
 	transform: translate(0, -50%);
+}
+
+.nav-logo:visited {
+	color: #31A671;
 }
 
 .nav-links {
@@ -164,6 +180,37 @@ a:hover {
 .masthead-subtitle {
 	margin: 0;
 	color: #31A671;
+}
+
+
+@media only screen and (max-width: 800px) {
+	.header {
+		height: 25rem;
+	}
+
+	.masthead-title {
+		font-size: 10rem;
+	}
+
+	.masthead-subtitle {
+		font-size: 3.5rem;
+	}
+}
+
+
+@media only screen and (max-width: 600px) {
+	.header {
+		background: #F4FFF2;
+		height: 15rem;
+	}
+
+	.masthead-title {
+		font-size: 5rem;
+	}
+
+	.masthead-subtitle {
+		font-size: 2rem;
+	}
 }
 
 /*Star Graphic*/
@@ -304,6 +351,48 @@ li.info-slider-shown {
 	padding: 5px;
 }
 
+@media only screen and (max-width: 1150px) {
+	.service-list {
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.info-slider {
+		width: 55%;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.info-slider {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.service-list {
+		width: 90%;
+		padding: 0;
+	}
+
+	.hover-icon {
+		font-size: .85rem;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.hover-icon {
+		font-size: .65rem;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.img-list {
+		width: 320px;
+	}
+}
+
+
 /*About*/
 #about {
 	padding: 1rem 0 4rem;
@@ -335,3 +424,10 @@ li.info-slider-shown {
 	margin: 0;
 }
 
+@media only screen and (max-width: 830px) {
+	.contact-address,
+	.contact-tel {
+		float: none;
+		margin-bottom: .5rem;
+	}
+}
