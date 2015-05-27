@@ -297,7 +297,8 @@ a:hover {
 }
 
 .service-list,
-.info-slider {
+.info-slider,
+.img-list {
 	list-style: none;
 	padding: 0;
 }
@@ -342,7 +343,6 @@ li.info-slider-shown {
 }
 
 .img-list {
-	list-style: none;
 	width: 80%;
 	margin: auto;
 }
