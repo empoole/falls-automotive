@@ -299,6 +299,7 @@ a:hover {
 .service-list,
 .info-slider {
 	list-style: none;
+	padding: 0;
 }
 
 .service-list {
