@@ -37,6 +37,11 @@ a:hover {
 	color: #0D2F33;
 }
 
+img {
+	max-width: 100%;
+	max-height: auto;
+}
+
 .heading {
 	font-size: 2rem;
 }
@@ -345,11 +350,12 @@ li.info-slider-shown {
 .img-list {
 	width: 80%;
 	margin: auto;
+	text-align: center;
 }
 
 .img-list li {
 	display: inline-block;
-	padding: 5px;
+	padding: .5rem 5px;
 }
 
 @media only screen and (max-width: 1150px) {
