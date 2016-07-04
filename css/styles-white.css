@@ -361,6 +361,10 @@ li.info-slider-shown {
 	padding: .5rem 5px;
 }
 
+#upholstery-services {
+	height: 20rem;
+}
+
 @media only screen and (max-width: 1150px) {
 	.service-list {
 		width: 60%;
