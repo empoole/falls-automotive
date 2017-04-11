@@ -21,12 +21,17 @@ $('#uph-link_tops').hover(function() {
 	showInfo("uph-slider_tops");
 });
 
-$('#uph-link_headliners').hover(function () {
+$('#uph-link_electronics').hover(function () {
 	hideOthers("uphostery-slider");
-	showInfo("uph-slider_headliners");
+	showInfo("uph-slider_electronics");
 });
 
-$('#uph-link_carpet').hover(function() {
+$('#uph-link_accessories').hover(function() {
 	hideOthers("uphostery-slider");
-	showInfo("uph-slider_carpet");
+	showInfo("uph-slider_accessories");
+});
+
+$('#uph-link_other').hover(function() {
+	hideOthers("uphostery-slider");
+	showInfo("uph-slider_other");
 });
